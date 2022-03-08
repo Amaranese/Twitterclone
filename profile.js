@@ -1,6 +1,6 @@
 $(function(){
 	
-	$('#profilecardname').text(Cookies.get('name'));
+	$('#profilecardname').text(Cookies.get('name')); 
 	$('#profilecarduid').text('@'+Cookies.get('uid'));
 	
 	$statslistitemcount = $('#statslistitemcount');
